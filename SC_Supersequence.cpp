@@ -23,6 +23,7 @@ int SC_supersequence(string x,string y,int n,int m)
             t[i][j]=max(t[i-1][j],t[i][j-1]);
         }
     }
+    //shortest common subsequence ki length ko minus kar diya kyu ki wo dono m common hogi
     int temp=t[n][m];
     int tt=n+m-temp;
     return tt;
