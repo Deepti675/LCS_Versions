@@ -1,4 +1,6 @@
 //Longest Palendromic Subsequence
+//funda is like in LCS in place of first string take main string and for second string take reverse of main string and apply simple lcs and we will get the longest palendromic subsequence for a given string
+
 #include <bits/stdc++.h>
 using namespace std;
 int static t[1002][1002];
